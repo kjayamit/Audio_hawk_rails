@@ -8,6 +8,7 @@ gem 'rails', '3.0.19'
 gem 'sqlite3'
 gem 'mysql2', '< 0.3'
 gem "paperclip", "~> 3.0"
+gem 'lock'
 
 # Use unicorn as the web server
 # gem 'unicorn'

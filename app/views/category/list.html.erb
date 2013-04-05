@@ -1,0 +1,12 @@
+<% if @categories.blank? %>
+    <p>There are not any categories currently in the system.</p>
+<% else %>
+    <p>These are the current categories in our system</p>
+    <ul id="categories">
+      <% @categories.each do |c| %>
+          <li><%= link_to c.name, {:action => 'show', :id => c.id} -%>
+            <b> <%= link_to 'Edit', {:action => "edit", :id => c.id} %></b></li>
+      <% end %>
+    </ul>
+<% end %>
+<p><%= link_to "Add new category", {:action => 'new' }%></p>

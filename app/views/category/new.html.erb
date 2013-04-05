@@ -1,0 +1,13 @@
+<h1>Add new category</h1>
+
+<%= form_for :category, @category, :url => { :action => "create" }, :html => {:multipart => true} do |f| %>
+    <p>
+      <%= f.label :name %><br />
+      <%= f.text_field :name %>
+    </p>
+    <p>
+      <%= f.submit 'Create' %>
+    </p>
+ <% end %>
+
+<%= link_to 'Back', {:action => 'list'} %>
