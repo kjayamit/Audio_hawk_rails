@@ -14,7 +14,7 @@
     <file path="/project_controller.rb" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1364656682155" ignored="false" />
     <file path="/list.html.erb" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1364838458702" ignored="false" />
     <file path="/new.html.erb" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1363800951309" ignored="false" />
-    <file path="/show.html.erb" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1363801210105" ignored="false" />
+    <file path="/show.html.erb" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1365343061084" ignored="false" />
     <file path="/edit.html.erb" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1365012128214" ignored="false" />
     <file path="/20130319182009_add_pictures_to_products.rb" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1363718008542" ignored="false" />
     <file path="/index.html.erb" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1364838620910" ignored="false" />
@@ -51,7 +51,13 @@
     <file path="$PROJECT_DIR$/../../rapidftr/RapidFTR/capybara_features/add_suggested_field_to_form_sections.feature" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1365156645631" ignored="false" />
     <file path="$PROJECT_DIR$/../../rapidftr/RapidFTR/capybara_features/advanced_search.feature" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1365160783791" ignored="false" />
     <file path="/disable_and_enable_forms.feature" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1365165805737" ignored="false" />
-    <file path="$USER_HOME$/Downloads/untitled folder/- Contact Copy.html" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1365182362711" ignored="false" />
+    <file path="$USER_HOME$/Downloads/untitled folder/- Contact Copy.html" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1365314967575" ignored="false" />
+    <file path="$PROJECT_DIR$/public/javascripts/prototype.js" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1365187351223" ignored="false" />
+    <file path="/show.html.erb.html" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1365189573396" ignored="false" />
+    <file path="$USER_HOME$/Downloads/untitled folder/- Contact Copy_files/slideshow.js" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1365313233321" ignored="false" />
+    <file path="$USER_HOME$/Downloads/untitled folder/- Contact Copy_files/jquery.form.js" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1365313233321" ignored="false" />
+    <file path="$USER_HOME$/Downloads/untitled folder/- Contact Copy_files/itemDesign.js" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1365313233321" ignored="false" />
+    <file path="$USER_HOME$/Downloads/untitled folder/as.erb" changelist="4605cea9-7f36-42cb-a7f2-8a8e7d43aebf" time="1365317634116" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +86,16 @@
       <file leaf-file-name="edit.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/project/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="64" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.7670807">
+            <state line="21" column="53" selection-start="628" selection-end="628" vertical-scroll-proportion="0.42080745">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/project/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="31" selection-start="10457" selection-end="10457" vertical-scroll-proportion="14.541667">
               <folding />
             </state>
           </provider>
@@ -105,10 +120,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/project.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130319182009_add_pictures_to_products.rb" />
         <option value="$PROJECT_DIR$/app/views/project/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/project/show.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/project_controller.rb" />
@@ -121,13 +134,15 @@
         <option value="$PROJECT_DIR$/app/views/category/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/project/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/project/show.html.erb.html" />
+        <option value="$PROJECT_DIR$/app/views/project/show.html.erb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="22" />
-    <option name="width" value="1420" />
+    <option name="x" value="153" />
+    <option name="y" value="56" />
+    <option name="width" value="1079" />
     <option name="height" value="793" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -156,8 +171,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,7 +199,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="audio-hawk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="audio-hawk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js_css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -227,54 +258,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="audio-hawk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="audio-hawk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="audio-hawk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="audio-hawk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="category" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -327,29 +310,31 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="appearance" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/untitled folder" />
     <property name="FullScreen" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/project" />
       <recent name="$PROJECT_DIR$/app/views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: audio-hawk">
@@ -477,6 +462,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
@@ -616,14 +608,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="22" width="1420" height="793" extended-state="0" />
+    <frame x="153" y="56" width="1079" height="793" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26855895" sideWeight="0.67128986" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2642788" sideWeight="0.67241377" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -632,7 +624,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32770744" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -695,21 +687,11 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/views/project/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="42" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+        <state line="12" column="36" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="87" selection-end="87" vertical-scroll-proportion="0.08955224" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/project_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
@@ -771,16 +753,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/project/edit.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/project/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="64" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.7670807">
+        <state line="12" column="36" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/project/new.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/project/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+        <state line="62" column="31" selection-start="10457" selection-end="10457" vertical-scroll-proportion="14.541667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/project/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="53" selection-start="628" selection-end="628" vertical-scroll-proportion="0.42080745">
           <folding />
         </state>
       </provider>
