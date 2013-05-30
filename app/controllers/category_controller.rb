@@ -1,6 +1,7 @@
 class CategoryController < ApplicationController
   def list
-    @categories = Category.all
+    #@categories = Category.all
+    @categories = Category.find(:all, :include => :projects)
   end
   def show
     @category = Category.find(params[:id])

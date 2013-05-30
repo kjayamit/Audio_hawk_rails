@@ -8,5 +8,14 @@
             <b> <%= link_to 'Edit', {:action => "edit", :id => c.id} %></b></li>
       <% end %>
     </ul>
+
+    <% for category in @categories %>
+        <strong><%= category.name %></strong>
+        <ul>
+          <% for project in category.projects %>
+              <li><%= project.project_name %></li>
+          <% end %>
+        </ul>
+    <% end %>
 <% end %>
 <p><%= link_to "Add new category", {:action => 'new' }%></p>

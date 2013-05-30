@@ -1,3 +1,40 @@
+
+
+<!-- saved from url=(0054)http://jquery.bassistance.de/treeview/demo/simple.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+
+  <title>jQuery treeview</title>
+
+  <link rel="stylesheet" href="http://jquery.bassistance.de/treeview/jquery.treeview.css">
+  <link rel="stylesheet" href="http://jquery.bassistance.de/treeview/red-treeview.css">
+  <link rel="stylesheet" href="http://jquery.bassistance.de/treeview/demo/screen.css">
+
+  <!--<script src="./jQuery treeview_files/jquery.js" type="text/javascript"></script>-->
+  <!--<script src="./jQuery treeview_files/jquery.cookie.js" type="text/javascript"></script>-->
+  <!--<script src="./jQuery treeview_files/jquery.treeview.js" type="text/javascript"></script>-->
+
+
+  <%= javascript_include_tag "../js_css/jquery" %>
+  <%= javascript_include_tag "../js_css/jquery.cookie" %>
+  <%= javascript_include_tag "../js_css/jquery.treeview" %>
+
+  <script type="text/javascript">
+      $(document).ready(function(){
+          $("#browser").treeview({
+              toggle: function() {
+                  console.log("%s was toggled.", $(this).find(">span").text());
+              }
+          });
+
+
+      });
+  </script>
+</head>
+<body>
+
+<h1 id="banner"><a href="http://bassistance.de/jquery-plugins/jquery-plugin-treeview/">jQuery Treeview Plugin</a> Demo</h1>
+
 <% if @projects.blank? %>
     <p>There are not any projects currently in the system.</p>
 <% else %>
@@ -10,3 +47,66 @@
     </ul>
 <% end %>
 <p><%= link_to "Add new project", {:action => 'new' }%></p>
+
+<div id="main">
+
+  <a href="http://jquery.bassistance.de/treeview/demo/">Main Demo</a>
+
+  <ul id="browser" class="filetree treeview-famfamfam treeview">
+    <% @categories.each do |c| %>
+        <li class="collapsable"><div class="hitarea collapsable-hitarea"></div><span class="folder">
+          <li><%= link_to c.name, {:action => 'show', :id => c.id} -%>
+         </span>
+
+        </li>
+    <% end %>
+    <li class="collapsable"><div class="hitarea collapsable-hitarea"></div><span class="folder">Item 1.1</span>
+      <ul>
+        <li class="last"><span class="file">Item 1.1.1</span></li>
+      </ul>
+      <ul>
+        <li ><span class="file">Item 1.1.1</span></li>
+        <li class="last"><span class="file">Item 1.1.1</span></li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- <ul id="browser" class="filetree treeview-famfamfam treeview">
+    <li class="collapsable lastCollapsable"><div class="hitarea collapsable-hitarea lastCollapsable-hitarea"></div><span class="folder">Folder 1</span>
+      <ul>
+        <li class="collapsable"><div class="hitarea collapsable-hitarea"></div><span class="folder">Item 1.1</span>
+          <ul>
+            <li class="last"><span class="file">Item 1.1.1</span></li>
+          </ul>
+        </li>
+        <li class="collapsable"><div class="hitarea collapsable-hitarea"></div><span class="folder">Folder 2</span>
+          <ul>
+            <li class="collapsable"><div class="hitarea collapsable-hitarea"></div><span class="folder">Subfolder 2.1</span>
+              <ul id="folder21">
+                <li><span class="file">File 2.1.1</span></li>
+                <li class="last"><span class="file">File 2.1.2</span></li>
+              </ul>
+            </li>
+            <li class="collapsable lastCollapsable"><div class="hitarea collapsable-hitarea lastCollapsable-hitarea"></div><span class="folder">Subfolder 2.2</span>
+              <ul>
+                <li><span class="file">File 2.2.1</span></li>
+                <li class="last"><span class="file">File 2.2.2</span></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="closed collapsable"><div class="hitarea closed-hitarea collapsable-hitarea"></div><span class="folder">Folder 3 (closed at start)</span>
+          <ul style="display: block;">
+            <li class="last"><span class="file">File 3.1</span></li>
+          </ul>
+        </li>
+        <li class="last"><span class="file">File 4</span></li>
+      </ul>
+    </li>
+  </ul>  -->
+
+  <p>+/- Icons from <a href="http://www.famfamfam.com/lab/icons/">famfamfam</a></p>
+
+</div>
+
+</body></html>

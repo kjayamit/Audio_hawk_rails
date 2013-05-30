@@ -1,0 +1,13 @@
+<!-- normal one -->
+<h1><%= @project.project_name %></h1>
+<p><strong>Price: </strong> $<%= @project.price %><br />
+  <strong>Subject :</strong> <%= @project.category.name %><br />
+  <strong>Created Date:</strong> <%= @project.created_at %><br />
+  <br/>
+  <% @project.images.each do |photo| %>
+      <%= image_tag photo.pic.url(:thumb) %>
+  <% end %>
+</p>
+<p><%= @project.description %></p>
+<hr />
+<%= link_to 'Back', {:action => 'list'} %>
